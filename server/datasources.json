@@ -2,5 +2,15 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "mysql": {
+    "host": "demo.strongloop.com",
+    "port": 3306,
+    "url": "",
+    "database": "getting_started",
+    "password": "L00pBack",
+    "name": "mysql",
+    "user": "demo",
+    "connector": "mysql"
   }
 }
