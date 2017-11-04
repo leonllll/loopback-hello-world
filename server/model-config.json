@@ -39,7 +39,7 @@
     "dataSource": null
   },
   "CoffeeShop": {
-    "dataSource": "db",
+    "dataSource": "mysql",
     "public": true
   }
 }
