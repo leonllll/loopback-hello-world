@@ -1,0 +1,20 @@
+{
+  "name": "APIRequestModel",
+  "base": "Model",
+  "idInjection": false,
+  "strict": true,
+  "properties": {
+    "id": false,
+    "param1": {
+      "type": "string",
+      "required": true
+    },
+    "param2": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

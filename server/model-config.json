@@ -41,5 +41,14 @@
   "CoffeeShop": {
     "dataSource": "mysql",
     "public": true
+  },
+  "APIModel": {
+    "dataSource": null,
+    "public": true
+  },
+  "APIRequestModel": {
+    "dataSource": null,
+    "public": true
   }
+
 }

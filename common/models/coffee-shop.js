@@ -19,7 +19,7 @@ module.exports = function(CoffeeShop) {
     accepts: [
       {arg: 'id', type: 'string', required: true, description: 'CoffeeShop Id', http: {source: 'path'}}
     ], // 定义输入参数格式，支持在path/body/query中携带参数
-    returns: {arg: 'has', type: 'object', description: '', root: true}, // 定义返回结果的格式
+    returns: {arg: 'status', type: 'object', description: '', root: true}, // 定义返回结果的格式
     http: {path: '/:id/status', verb: 'get', status: 200, errorStatus: 500} // 定义HTTP相关属性
   });
 
